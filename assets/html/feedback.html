@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Feedback</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Feedback</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>We Value Your Feedback</h2>
+        <form method="POST" action="feedback_handler.php">
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" required></textarea>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="1">1 - Poor</option>
+                <option value="2">2 - Fair</option>
+                <option value="3">3 - Good</option>
+                <option value="4">4 - Very Good</option>
+                <option value="5">5 - Excellent</option>
+            </select>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 University Guest Room Management</p>
+    </footer>
+</body>
+</html>

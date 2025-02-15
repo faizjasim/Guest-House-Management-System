@@ -1,0 +1,12 @@
+/* Form Validation Error Styles */
+.error-message {
+    color: #e74c3c;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: #27ae60;
+    font-size: 16px;
+    margin-top: 10px;
+}
